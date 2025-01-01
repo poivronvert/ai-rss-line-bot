@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "my-journalist"
+version = "0.1.9"
+description = ""
+authors = ["AliceKuo <ming-chieh.kuo@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+feedparser = "^6.0.11"
+python-dotenv = "^1.0.1"
+line-bot-sdk = "^3.13.0"
+fastapi = "^0.114.1"
+uvicorn = "^0.30.6"
+beautifulsoup4 = "^4.12.3"
+openai = "^1.45.1"
+sqlalchemy = "^2.0.35"
+pydantic = "^2.9.1"
+psycopg-binary = "^3.2.2"
+alembic = "^1.13.2"
+psycopg = "^3.2.2"
+itsdangerous = "^2.2.0"
+redis = "^5.2.0"
+google-auth = "^2.35.0"
+pyjwt = "^2.10.1"
+bcrypt = "^4.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jwcrypto = "^1.5.6"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
