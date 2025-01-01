@@ -1,0 +1,7 @@
+.vscode
+.env
+*.pyc
+app.log
+.DS_Store
+node_modules
+.next
